@@ -40,8 +40,9 @@
                     $( opts.navSelector ).after( '<div class="yith-infs-loader">' + opts.loader + '</div>' );
             loading = true;
             // decode url to prevent error
-            desturl = decodeURIComponent(desturl);
-            desturl = desturl.replace(/^(?:\/\/|[^\/]+)*\//, "/");
+            let url = new URL( decodeURIComponent(desturl) );
+            url.searchParams.delete('_');
+            desturl = url.toString().replace(/^(?:\/\/|[^\/]+)*\//, "/");
 
             // ajax call
             $.ajax({
