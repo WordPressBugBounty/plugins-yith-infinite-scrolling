@@ -17,7 +17,7 @@
 
             loading  = false,
             finished = false,
-            desturl  = $( opts.nextSelector ).attr( 'href' ); // init next url
+            desturl  = $( opts.nextSelector ).prop( 'href' ); // init next url
 
         // validate options and hide std navigation
         if( $( opts.nextSelector ).length && $( opts.navSelector ).length && $( opts.itemSelector ).length && $( opts.contentSelector ).length ) {
@@ -58,7 +58,7 @@
                         current_url = desturl;
 
                     if( next.length ) {
-                        desturl = next.attr( 'href' );
+                        desturl = next.prop( 'href' );
                     }
                     else {
                         // set finished var true

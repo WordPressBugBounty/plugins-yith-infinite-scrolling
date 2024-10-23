@@ -4,7 +4,7 @@ Tags: yith, infinite scrolling, ajax pagination, infinite scroll, load more
 Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 6.6
-Stable tag: 1.27.1
+Stable tag: 1.27.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,10 @@ Full documentation is available [here](https://docs.yithemes.com/yith-infinite-s
 1. The plugin admin page.
 
 == Changelog ==
+
+= 1.27.2 = Released on 23 October 2024
+
+* Fix: make sure to get full url from navigation link
 
 = 1.27.1 = Released on 15 October 2024
 
