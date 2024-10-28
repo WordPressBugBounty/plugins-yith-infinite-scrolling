@@ -96,7 +96,19 @@ if ( ! class_exists( 'YITH_INFS' ) ) {
 		 * @return boolean
 		 */
 		public function load_frontend() {
-			return 'yes' === yinfs_get_option( 'yith-infs-enable', 'yes' );
+
+			$active_mobile = 'yes' === yinfs_get_option( 'yith-infs-enable-mobile', 'yes' );
+
+			/**
+			 * APPLY_FILTERS: yith_infinite_scrolling_load_frontend
+			 *
+			 * Filters whether the frontend classes should be loaded.
+			 *
+			 * @param bool $load_frontend Whether the frontend classes should be loaded or not.
+			 *
+			 * @return bool
+			 */
+			return apply_filters( 'yith_infinite_scrolling_load_frontend', ( ( ! wp_is_mobile() || ( wp_is_mobile() && $active_mobile ) ) ) );
 		}
 
 		/**

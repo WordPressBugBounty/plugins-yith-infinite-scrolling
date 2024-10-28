@@ -16,21 +16,14 @@ $settings = array(
 		'header'   => array(
 
 			array(
-				'name' => __( 'General Settings', 'yiw' ),
+				'name' => __( 'Plugin options', 'yith-infinite-scrolling' ),
 				'type' => 'title',
+				'desc' => __( 'Enable the plugin and set sections.', 'yith-infinite-scrolling' ),
 			),
 
-			array( 'type' => 'close' ),
-		),
-
-
-		'settings' => array(
-
-			array( 'type' => 'open' ),
-
 			array(
-				'id'   => 'yith-infs-enable',
-				'name' => __( 'Enable Infinite Scrolling', 'yith-infinite-scrolling' ),
+				'id'   => 'yith-infs-enable-mobile',
+				'name' => __( 'Enable Infinite Scrolling on mobile devices', 'yith-infinite-scrolling' ),
 				'desc' => '',
 				'type' => 'on-off',
 				'std'  => 'yes',
@@ -39,9 +32,9 @@ $settings = array(
 			array(
 				'id'   => 'yith-infs-navselector',
 				'name' => __( 'Navigation Selector', 'yith-infinite-scrolling' ),
-				'desc' => __( 'The selector containing your theme\'s navigation', 'yith-infinite-scrolling' ),
+				'desc' => __( 'The selector containing your theme\'s navigation.', 'yith-infinite-scrolling' ),
 				'type' => 'text',
-				'std'  => 'nav.navigation',
+				'std'  => '.navigation',
 				'deps' => array(
 					'ids'    => 'yith-infs-enable',
 					'values' => 'yes',
@@ -51,9 +44,9 @@ $settings = array(
 			array(
 				'id'   => 'yith-infs-nextselector',
 				'name' => __( 'Next Selector', 'yith-infinite-scrolling' ),
-				'desc' => __( 'The link to the next page with content', 'yith-infinite-scrolling' ),
+				'desc' => __( 'The link to the next page with content.', 'yith-infinite-scrolling' ),
 				'type' => 'text',
-				'std'  => 'nav.navigation a.next',
+				'std'  => '.navigation a.next',
 				'deps' => array(
 					'ids'    => 'yith-infs-enable',
 					'values' => 'yes',
@@ -63,7 +56,7 @@ $settings = array(
 			array(
 				'id'   => 'yith-infs-itemselector',
 				'name' => __( 'Item Selector', 'yith-infinite-scrolling' ),
-				'desc' => __( 'The selector containing a single post or product', 'yith-infinite-scrolling' ),
+				'desc' => __( 'The selector containing a single post or product.', 'yith-infinite-scrolling' ),
 				'type' => 'text',
 				'std'  => 'article.post',
 				'deps' => array(
@@ -75,7 +68,7 @@ $settings = array(
 			array(
 				'id'   => 'yith-infs-contentselector',
 				'name' => __( 'Content Selector', 'yith-infinite-scrolling' ),
-				'desc' => __( 'The selector containing your theme\'s content', 'yith-infinite-scrolling' ),
+				'desc' => __( 'The selector containing your theme\'s content.', 'yith-infinite-scrolling' ),
 				'type' => 'text',
 				'std'  => '#main',
 				'deps' => array(
@@ -86,9 +79,9 @@ $settings = array(
 
 			array(
 				'id'   => 'yith-infs-loader-image',
-				'name' => __( 'Loading Image', 'yith-infinite-scrolling' ),
-				'desc' => __( 'Upload a custom loading image', 'yith-infinite-scrolling' ),
-				'type' => 'upload',
+				'name' => __( 'Loader', 'yith-infinite-scrolling' ),
+				'desc' => __( 'Upload a custom loader.', 'yith-infinite-scrolling' ),
+				'type' => 'media',
 				'std'  => YITH_INFS_ASSETS_URL . '/images/loader.gif',
 				'deps' => array(
 					'ids'    => 'yith-infs-enable',
@@ -96,9 +89,11 @@ $settings = array(
 				),
 			),
 
-
-			array( 'type' => 'close' ),
+			array(
+				'type' => 'close',
+			),
 		),
+
 	),
 );
 
