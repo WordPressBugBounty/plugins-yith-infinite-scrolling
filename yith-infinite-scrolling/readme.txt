@@ -1,17 +1,17 @@
 === YITH Infinite Scrolling ===
 Contributors: yithemes
 Tags: yith, infinite scrolling, ajax pagination, infinite scroll, load more
-Requires at least: 6.4
+Requires at least: 6.5
 Requires PHP: 7.4
-Tested up to: 6.6
-Stable tag: 2.0.0
+Tested up to: 6.7
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Add infinite scrolling to archive post or shop page.
 
 == Description ==
-Replace product or article pagination with infinite scrolling for a more efficient browsing experience for your users
+**Replace product or article pagination with infinite scrolling for a more efficient browsing experience for your users **
 
 The **YITH Infinite Scrolling** plugin allows you to add infinite scrolling functionality to your website and offer your users a wide selection of products or articles without having to click on buttons or pagination numbers.
 
@@ -47,6 +47,10 @@ Features of the Premium version of the plugin:
 1. The plugin admin page.
 
 == Changelog ==
+
+= 2.1.0 = Released on 11 December 2024
+* New: support for WordPress 6.7
+* Update: YITH plugin framework
 
 = 2.0.0 = Released on 28 October 2024
 * New: Plugin panel restyling
