@@ -1,18 +1,18 @@
-# Copyright (C) 2025 YITH
+# Copyright (C) 2026 YITH
 # This file is distributed under the same license as the YITH Infinite Scrolling package.
 msgid ""
 msgstr ""
-"Project-Id-Version: YITH Infinite Scrolling 2.2.0\n"
+"Project-Id-Version: YITH Infinite Scrolling 2.5.0\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/yith-infinite-scrolling\n"
-"POT-Creation-Date: 2025-04-22 15:30:14+00:00\n"
+"POT-Creation-Date: 2026-01-19 14:19:53+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: grunt-wp-i18n 1.0.3\n"
+"X-Generator: grunt-wp-i18n 1.0.4\n"
 
 #: includes/class.yith-infs-admin.php:163
 msgid "General Settings"
@@ -53,9 +53,9 @@ msgstr ""
 #: includes/class.yith-infs-admin.php:347
 msgid ""
 "Do not be restricted to choose if you want to activate the scrolling in the "
-"comments, in the shop\n"
+"comments, in the shop\r\n"
 "\t\t\t\t\tproducts or in the posts of your blog. You can create infinite "
-"sections for the contents of your\n"
+"sections for the contents of your\r\n"
 "\t\t\t\t\tsite and have a settings panel for each of these. "
 msgstr ""
 
@@ -66,7 +66,7 @@ msgstr ""
 #: includes/class.yith-infs-admin.php:353
 msgid ""
 "Four different loader types for the scrolling of your page, and in case you "
-"are not pleased by them,\n"
+"are not pleased by them,\r\n"
 "\t\t\t\t\tyou can always load a custom one with the related button."
 msgstr ""
 
@@ -77,7 +77,7 @@ msgstr ""
 #: includes/class.yith-infs-admin.php:358
 msgid ""
 "The Infinite scrolling is not the only option for the paging of you "
-"contents. You can choose to load\n"
+"contents. You can choose to load\r\n"
 "\t\t\t\t\tthem gradually in the same page with the related button, or offer "
 "an Ajax paging to your users."
 msgstr ""
@@ -89,7 +89,7 @@ msgstr ""
 #: includes/class.yith-infs-admin.php:363
 msgid ""
 "Choose the animation effect you want for the loading of the contents of "
-"your section. You can choose\n"
+"your section. You can choose\r\n"
 "\t\t\t\t\tamong seven different options."
 msgstr ""
 
@@ -100,9 +100,9 @@ msgstr ""
 #: includes/class.yith-infs-admin.php:368
 msgid ""
 "The main purpose of the infinite scrolling is to allow users to consult "
-"several pages contents\n"
+"several pages contents\r\n"
 "\t\t\t\t\twithout waiting for the new loading of the webpage. Now, page url "
-"becomes dynamic too thanks to its\n"
+"becomes dynamic too thanks to its\r\n"
 "\t\t\t\t\tautomatic update when the contents of next page are loaded."
 msgstr ""
 

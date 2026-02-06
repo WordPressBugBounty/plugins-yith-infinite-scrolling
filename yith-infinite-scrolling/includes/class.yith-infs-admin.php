@@ -424,8 +424,6 @@ if ( ! class_exists( 'YITH_INFS_Admin' ) ) {
 		public static function get_option( $option, $default = false ) {
 			return yinfs_get_option( $option, $default );
 		}
-
-
 	}
 }
 /**
