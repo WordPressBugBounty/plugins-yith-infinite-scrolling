@@ -4,7 +4,7 @@ Tags: yith, infinite scrolling, ajax pagination, infinite scroll, load more
 Requires at least: 6.8
 Requires PHP: 7.4
 Tested up to: 7.0
-Stable tag: 2.7.0
+Stable tag: 2.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,11 @@ Features of the Premium version of the plugin:
 1. The plugin admin page.
 
 == Changelog ==
+
+= 2.8.0 = Released on 14 May 2026
+
+* New: support for WooCommerce 10.8
+* Update: YITH plugin framework
 
 = 2.7.0 = Released on 31 March 2026
 
